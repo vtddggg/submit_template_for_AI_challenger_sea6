@@ -5,7 +5,7 @@ import torch
 from torchvision import transforms
 from PIL import Image
 
-parser = argparse.ArgumentParser('DeiT training and evaluation script', add_help=False)
+parser = argparse.ArgumentParser('Running script', add_help=False)
 parser.add_argument('--input_dir', default='../input_dir', type=str)
 parser.add_argument('--output_dir', default='../output_dir', type=str)
 
