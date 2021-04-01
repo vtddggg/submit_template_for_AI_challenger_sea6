@@ -5,7 +5,7 @@
 - First you need clone the this repository
 ```
 git clone https://github.com/vtddggg/submit_template_for_AI_challenger_sea6.git
-
+cd submit_template_for_AI_challenger_sea6
 ```
 In this template, we provide some example images in `input_dir/images` and label file `dev.csv` in `input_dir`.
 
@@ -13,7 +13,6 @@ In this template, we provide some example images in `input_dir/images` and label
 
 ```
 docker build -t securityaicompetition/season6:v1 .
-
 ```
 Note that this command will copy `code` folder into your custom docker image.
 
@@ -48,7 +47,7 @@ docker run -v $(pwd)/input_dir:/workspace/input_dir -v $(pwd)/output_dir:/worksp
 - 首先您需要clone我们的提交模版
 ```
 git clone https://github.com/vtddggg/submit_template_for_AI_challenger_sea6.git
-
+cd submit_template_for_AI_challenger_sea6
 ```
 此模版中，我们在`input_dir/images`文件夹下提供了一些示例图像以供调试，并且标签文件`dev.csv`放置在`input_dir`下.
 
@@ -56,7 +55,6 @@ git clone https://github.com/vtddggg/submit_template_for_AI_challenger_sea6.git
 
 ```
 docker build -t securityaicompetition/season6:v1 .
-
 ```
 此操作会把`code`文件夹打入镜像
 
