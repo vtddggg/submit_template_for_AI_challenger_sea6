@@ -1,5 +1,11 @@
 # Submit template for CVPR-2021 AIC-VI: Unrestricted Adversarial Attacks on ImageNet
 
+## Dos and Don'ts
+
+- Do use GPUs to accelerate the running of your code.
+
+- Don't using 5000 test images and `dev.csv` to train any substitution model or finetune your model parameters. We only allow the model inference at final evaluation stage.
+
 ## Usage
 
 - First you need clone the this repository
@@ -41,6 +47,12 @@ docker run -v $(pwd)/input_dir:/workspace/input_dir -v $(pwd)/output_dir:/worksp
 
 
 # AI安全挑战者计划第六期ImageNet无限制攻击比赛提交示例
+
+## 注意事项
+
+- 尽量使用GPU加速攻击算法的运行
+
+- 不要使用5000张用于测试的图像和对应标签去训练任何替代模型或者在已有模型参数上finetune。在最终测试阶段，我们只允许利用模型的进行测试
 
 ## 使用方法
 
