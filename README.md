@@ -52,7 +52,7 @@ docker run -v $(pwd)/input_dir:/workspace/input_dir -v $(pwd)/output_dir:/worksp
 
 - 尽量使用GPU加速攻击算法的运行
 
-- 不要使用5000张用于测试的图像和对应标签去训练任何替代模型或者在已有模型参数上finetune。在最终测试阶段，我们只允许利用模型的进行测试
+- 不要使用5000张用于测试的图像和对应标签去训练任何替代模型或者在已有模型参数上finetune。在最终测试阶段，我们只允许利用已有模型进行inference
 
 ## 使用方法
 
